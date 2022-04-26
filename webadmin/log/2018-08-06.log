@@ -1,0 +1,6 @@
+2018-08-06 10:26:25 [Debug] 最終操作時間が取得できませんでした。
+2018-08-06 10:26:26 [Information] ログイン成功:サイト管理者(1)
+2018-08-06 15:33:29 [Information] default_form_post.phpからの管理者向け通知メール送信に失敗しました。 post_redirect=/nursery-school-contact.html?state=true#nursery-school-form,post_redirect_error=/nursery-school-contact.html?state=false#nursery-school-form,kana=-,tel=-,age=-,other1=-,other2=-,other3=-,name=比嘉　テスト,mail_address=hibiki@ookinawa.jp,other=メールテスト
+,submit=この内容で問い合せる
+2018-08-06 15:33:29 [Information] default_form_post.phpからのサンクスメール送信に失敗しました。 post_redirect=/nursery-school-contact.html?state=true#nursery-school-form,post_redirect_error=/nursery-school-contact.html?state=false#nursery-school-form,kana=-,tel=-,age=-,other1=-,other2=-,other3=-,name=比嘉　テスト,mail_address=hibiki@ookinawa.jp,other=メールテスト
+,submit=この内容で問い合せる

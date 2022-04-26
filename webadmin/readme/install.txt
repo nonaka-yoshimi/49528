@@ -1,0 +1,37 @@
+■SpeedCMSインストール手順
+１．特定のディレクトリ(Apache公開ディレクトリ)にソース一式をコピーします。
+２．トップディレクトリの.htaccessのRewriteBaseをソースを配置する階層に合わせて設定します。(トップディレクトリに置く場合は、"/"とする)
+　　【対象ファイル】
+　　　/.htaccess
+　　【編集箇所】
+　　　RewriteBase
+３．ソースを配置する階層に合わせてConfigファイルの環境設定を行います。
+　　【対象ファイル】
+　　　/webadmin/Config/EnvConfig.php
+　　【編集箇所】
+　　　DEFAULT_DOMAIN
+　　　SITE_BASE_DOMAIN
+　　　SITE_BASE_DOMAIN_SSL
+　　　LOCAL_HOST_ADDRESS
+　　　BASE_DIR_PATH
+４．データベースを作成し、ダンプをインポートします。
+　　【ダンプファイル】
+　　　/webadmin/sql/xxxxx.sql
+５．データベース環境に合わせてConfigファイルのDBアクセス設定を行います。
+　　【対象ファイル】
+　　　/webadmin/Config/DBConfig.php
+　　【編集箇所】
+　　　DSN
+　　　USER
+　　　PASSWORD
+６．管理画面にWebアクセスしログインします。
+　　【アクセスURL】
+　　　/webadmin/
+　　【ID/PW】
+　　　test1 / test1
+７．管理画面でローカルドメインのデフォルトのディレクトリパス（ソースの配置ディレクトリ）を設定します。
+　　【設定メニュー】
+　　「マスタ設定」-「ドメインマスタ」-(対象ドメイン選択)-「ベースディレクトリパス」欄
+　　【設定内容】
+　　ソースを配置する階層に合わせて設定します。(トップディレクトリに置く場合は、"/"とする)
+

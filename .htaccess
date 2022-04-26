@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /
+
+# HTMLページアクセス制御から除外するファイルディレクトリ一覧を追加します。
+# RewriteBaseを設定する場合はBasePathも含めた記載に変更します。
+RewriteCond %{REQUEST_URI} !(^/webadmin/(.*))$
+RewriteCond %{REQUEST_URI} !(^/rewrite.php)$
+RewriteCond %{REQUEST_URI} !(^.*\.(php|jpg|gif|woff))$
+
+# ディレクトリへのアクセスの場合は、リライト処理対象外
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteCondで設定した対象以外の全てのアクセスをrewrite.phpに集約します。
+RewriteRule (.*) rewrite.php?url=$1 [L,NC]
+
+# Basic認証エラー時のページを指定します。
+ErrorDocument 401 /unauthorized.php
+# Indexファイルの存在しないディレクトリへの直接アクセス時などに表示するページを指定します。
+ErrorDocument 403 /forbidden.php
+# 存在しないページへのアクセス時に表示するページを指定します。
+ErrorDocument 404 /notfound.php

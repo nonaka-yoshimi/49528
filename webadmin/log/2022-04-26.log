@@ -1,0 +1,43 @@
+2022-04-26 05:15:35 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 311 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 200 (CMSEngine->outputPublicDBContent())
+	C:\xampp7.4.28\htdocs\project\49528\rewrite.php line 17 (CMSEngine->output())
+2022-04-26 05:15:37 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 311 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 200 (CMSEngine->outputPublicDBContent())
+	C:\xampp7.4.28\htdocs\project\49528\rewrite.php line 17 (CMSEngine->output())
+	C:\xampp7.4.28\htdocs\project\49528\notfound.php line 9 (include)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 391 (include)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 206 (CMSEngine->outputNotFound())
+	C:\xampp7.4.28\htdocs\project\49528\rewrite.php line 17 (CMSEngine->output())
+2022-04-26 05:15:39 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\include.php line 76 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\addon\voice\voice_edit.php line 3 (require_once)
+2022-04-26 05:15:42 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 311 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 200 (CMSEngine->outputPublicDBContent())
+	C:\xampp7.4.28\htdocs\project\49528\rewrite.php line 17 (CMSEngine->output())
+	C:\xampp7.4.28\htdocs\project\49528\notfound.php line 9 (include)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 391 (include)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\CMSEngine\CMSEngine.php line 206 (CMSEngine->outputNotFound())
+	C:\xampp7.4.28\htdocs\project\49528\rewrite.php line 17 (CMSEngine->output())
+2022-04-26 05:15:57 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\include.php line 76 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\index.php line 3 (require_once)
+2022-04-26 05:16:01 [Error] データベースへの接続に失敗しました。
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\DB.php line 42
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\dbconnect.php line 4 (DB->connect())
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\ApplicationCommon\include.php line 76 (require_once)
+	C:\xampp7.4.28\htdocs\project\49528\webadmin\index.php line 3 (require_once)
+2022-04-26 05:17:40 [Debug] 最終操作時間から指定時間を経過しました。
+2022-04-26 05:17:45 [Information] ログイン成功:サイト管理者(1)
